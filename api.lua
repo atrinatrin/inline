@@ -163,7 +163,7 @@ local function run()
           offset = msg.update_id + 1
           if msg.inline_query then
             local q = msg.inline_query
-						if q.from.id == 370725344 or q.from.id == 261764158 then
+						if q.from.id == 7054361310 or q.from.id == 6864201346 then
             if q.query:match('%d+') then
               local chat = '-'..q.query:match('%d+')
 							local function is_lock(chat,value)
